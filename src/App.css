@@ -1,0 +1,63 @@
+body{
+    background-color: #000000;
+    }
+    .feedback-container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #2fe612; /* Black background */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      }
+      
+      h2 {
+        text-align: center;
+        color: #000000; /* White text */
+      }
+      
+      .feedback-form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      
+      .form-group {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      label {
+        margin-bottom: 5px;
+        color: #000000; /* White label text */
+      }
+      
+      input, textarea {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #000000;
+        background-color: #ffffff; /* Dark background for inputs */
+        color: #fff; /* White input text */
+        font-size: 16px;
+        outline: none;
+        transition: border 0.2s ease;
+      }
+      
+      input:focus, textarea:focus {
+        border-color: #00ff00; /* Green border when focused */
+      }
+      
+      .submit-button {
+        padding: 10px 20px;
+        background-color: #000000; /* Green button */
+        color: #09ea1c; /* Black text */
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .submit-button:hover {
+        background-color: #008f00; /* Darker green on hover */
+      }
+      
